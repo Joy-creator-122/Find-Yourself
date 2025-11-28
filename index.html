@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Find Yourself – Minat & Bakat Explorer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <main class="opening">
+      <div class="card fade-in">
+        <div class="hero-shapes" aria-hidden="true">
+          <div class="shape s1"></div>
+          <div class="shape s2"></div>
+          <div class="shape s3"></div>
+        </div>
+        <h1>Find Yourself</h1>
+        <h2 class="subtitle">Minat & Bakat Explorer — Temukan kekuatanmu dengan cepat</h2>
+        <p class="lead">Sebuah experience singkat untuk membantu siswa SMP mengeksplor minat dan dapatkan aktivitas harian.</p>
+
+        <div class="actions">
+          <a class="btn btn-primary" id="start-btn" href="test/tes.html">Mulai</a>
+        </div>
+        <p class="small muted">Built for learning — simple prototype.</p>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Find Yourself – Tes Minat & Bakat</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav-inner">
+				<a class="brand" href="index.html">Find Yourself</a>
+				<div class="nav-links">
+					<a href="index.html">Tes</a>
+					<a href="quest.html">Quest Harian</a>
+					<a href="boardgame.html">Board Game</a>
+				</div>
+			</div>
+		</nav>
+
+		<main class="page">
+			<div class="card">
+				<header class="card-header">
+					<h1>Find Yourself – Tes Minat &amp; Bakat</h1>
+					<p class="lead">Tes singkat untuk siswa SMP — pilih jawaban yang paling sesuai.</p>
+				</header>
+
+				<section id="quiz-container">
+					<!-- Question and options will be rendered here by script.js -->
+				</section>
+
+				<div id="controls" class="controls">
+					<button id="next-btn">Lanjut</button>
+				</div>
+
+				<section id="result" class="result hidden">
+					<!-- Hasil akan ditampilkan di sini -->
+				</section>
+			</div>
+		</main>
+
+		<footer class="footer small">Simple prototype — dibuat untuk siswa SMP.</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
